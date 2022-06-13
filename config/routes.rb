@@ -1,11 +1,5 @@
 Rails.application.routes.draw do
-  namespace :api do
-    namespace :v1 do
-      get '/notifications', to: 'notifications#index'
-      post '/notifications', to: 'notifications#create'
-      get '/notifications/:id', to: 'notifications#show'
-      patch '/notifications/:id', to: 'notifications#update'
-      delete '/notifications/:id', to: 'notifications#destroy'
-    end
-  end
+  # get '/notifications', to: "notifications#index" # all notifications
+  resources :notifications,  only: [:index, :destroy]
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

@@ -18,3 +18,15 @@ Notification.create(
   content: "Sit as close as possible to warm fire without sitting on cold floor. Jump around on couch, meow constantly until given food, refuse to leave cardboard box and fight own tail why can't i catch that stupid red dot yet man running from cops stops to pet cats, goes to jail mesmerizing birds. You have cat to be kitten me right meow ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss i dreamt about fish yum! for drink water out of the faucet so find something else more interesting, or always ensure to lay down in such a manner that tail can lightly brush human's nose.",
   preview: 'Kitty power make plans to dominate world and then take a nap'
 )
+Notification.create(
+  sender_name: 'Mr. Mistoffelees',
+  title: 'Feed me or Else', 
+  content: "Sit as close as possible to warm fire without sitting on cold floor. Jump around on couch, meow constantly until given food, refuse to leave cardboard box and fight own tail why can't i catch that stupid red dot yet man running from cops stops to pet cats, goes to jail mesmerizing birds. You have cat to be kitten me right meow ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss i dreamt about fish yum! for drink water out of the faucet so find something else more interesting, or always ensure to lay down in such a manner that tail can lightly brush human's nose.",
+  preview: 'Kitty power make plans to dominate world and then take a nap'
+)
+Notification.create(
+  sender_name: 'Mr. Mistoffelees',
+  title: 'Feed me or Else', 
+  content: "Sit as close as possible to warm fire without sitting on cold floor. Jump around on couch, meow constantly until given food, refuse to leave cardboard box and fight own tail why can't i catch that stupid red dot yet man running from cops stops to pet cats, goes to jail mesmerizing birds. You have cat to be kitten me right meow ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss i dreamt about fish yum! for drink water out of the faucet so find something else more interesting, or always ensure to lay down in such a manner that tail can lightly brush human's nose.",
+  preview: 'Kitty power make plans to dominate world and then take a nap'
+)

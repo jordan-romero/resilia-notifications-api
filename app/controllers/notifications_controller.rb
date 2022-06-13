@@ -1,47 +1,22 @@
-module Api::V1
-  class NotificationsController < ApplicationController
+class NotificationsController < ApplicationController
+  before_action :set_notification, only: [:destroy]
 
-    def index
-      @notifcations = Notification.all
-      render json: @Notifications
-    end
+  # GET /notifications
+  def index
+    @notifications = Notification.all
 
-    def show
-      @Notifications = Notification.find(params[:id])
-      render json: @Notifications
-    end
-
-    def create
-      @Notifications = Notification.new(Notification_params)
-
-      if @Notifications.save
-        render json: @Notifications, status: :created
-      else
-        render json: @Notifications.errors, status: :unprocessable_entity
-      end
-    end
-
-    def update
-      @Notifications = Notification.find(params[:id])
-      if @Notifications.update(Notification_params)
-        render json: @Notifications
-      else
-        render json: @Notifications.errors, status: :unprocessable_entity
-      end
-    end
-
-    def destroy
-      @Notifications = Notification.find(params[:id])
-      @Notifications.destroy
-    end
-    ###############################################################
-    private
-
-    def Notification_params
-      params
-          .require(:Notification)
-          .permit(:company, :position, :description)
-    end
-
+    render json: @notifications
   end
+
+  # DELETE /notifications
+  def destroy
+    @notification.destroy
+    render json: {notice: 'Notification destroyed'}, status: 200
+  end
+
+  private 
+
+  def set_notification
+    @notification = Notification.find_by(id: params[:id])
+  end 
 end
