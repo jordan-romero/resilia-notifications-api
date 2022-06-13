@@ -6,27 +6,27 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 Notification.create(
-  sender_name: 'Skimbleshanks',
-  title: 'Need Pets Immediately',
-  content: "Making sure that fluff gets into the owner's eyes ha ha, you're funny i'll kill you last fall over dead (not really but gets sypathy). There's a forty year old lady there let us feast. Leave fur on owners clothes cat cat moo moo lick ears lick paws i like fish but need to chase tail where is my slave? I'm getting hungry mesmerizing birds but purr. Claws in the eye of the beholder meowwww and cat fur is the new black for run as fast as i can into another room for no reason.",
-  preview: 'Pet me pet me pet me pet me, bite, scratch'
+  sender_name: 'Jane Doe',
+  title: 'Annual Golf Tournament',
+  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a ultricies nibh. Maecenas quam felis, semper eget tempor a, luctus sit amet arcu. Pellentesque sollicitudin neque id interdum pretium. Ut non lacinia ante. Donec id ligula consectetur ex rutrum sodales. Vivamus pretium est diam, malesuada lobortis sem convallis placerat. Curabitur lorem mi, maximus eget bibendum eget, aliquet a urna. Phasellus vitae imperdiet nulla. Donec nec tellus a ante pharetra interdum. Morbi aliquam hendrerit nisl, et vulputate purus consequat non. Duis sed nunc velit. Vivamus vitae tortor hendrerit, facilisis velit et, viverra nisl. Proin imperdiet nunc ut ullamcorper rhoncus. Proin a nunc ut dui condimentum imperdiet quis at erat.",
+  preview: 'More details and coaching notes for tournament performance'
 )
 
 Notification.create(
-  sender_name: 'Mr. Mistoffelees',
-  title: 'Feed me or Else', 
-  content: "Sit as close as possible to warm fire without sitting on cold floor. Jump around on couch, meow constantly until given food, refuse to leave cardboard box and fight own tail why can't i catch that stupid red dot yet man running from cops stops to pet cats, goes to jail mesmerizing birds. You have cat to be kitten me right meow ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss i dreamt about fish yum! for drink water out of the faucet so find something else more interesting, or always ensure to lay down in such a manner that tail can lightly brush human's nose.",
-  preview: 'Kitty power make plans to dominate world and then take a nap'
+  sender_name: 'James Taylor',
+  title: 'Current grant proprosal', 
+  content: "Suspendisse neque orci, sodales quis ornare et, dictum ut magna. Mauris id lorem felis. Aliquam sit amet odio in lorem luctus egestas. Integer ac fermentum elit. Nunc hendrerit auctor lacus, ut sodales eros bibendum in. Suspendisse mollis lacus posuere, mollis arcu sed, feugiat dolor. Sed tempor nulla nec nibh dapibus, non pellentesque sem vestibulum. Integer orci ligula, accumsan et ligula ut, pellentesque porta velit. Integer in odio auctor mauris euismod feugiat. Mauris quis ipsum at enim commodo aliquet id non leo. Morbi non arcu nulla.",
+  preview: 'A rough draft on the proposal - seeking feedback'
 )
 Notification.create(
-  sender_name: 'Mr. Mistoffelees',
-  title: 'Feed me or Else', 
-  content: "Sit as close as possible to warm fire without sitting on cold floor. Jump around on couch, meow constantly until given food, refuse to leave cardboard box and fight own tail why can't i catch that stupid red dot yet man running from cops stops to pet cats, goes to jail mesmerizing birds. You have cat to be kitten me right meow ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss i dreamt about fish yum! for drink water out of the faucet so find something else more interesting, or always ensure to lay down in such a manner that tail can lightly brush human's nose.",
-  preview: 'Kitty power make plans to dominate world and then take a nap'
+  sender_name: 'Kay Dryer',
+  title: 'Story telling ideas', 
+  content: "Ut eleifend cursus hendrerit. Duis facilisis velit et sagittis pulvinar. Morbi vel nisi pulvinar est feugiat tincidunt et ac ipsum. Nam sodales ligula mauris, vitae pulvinar nunc facilisis id. Aliquam tempor volutpat mattis. Pellentesque ultricies erat et ligula dignissim tempor. Mauris eu leo fringilla, convallis urna sed, gravida lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam et nisi pellentesque, malesuada eros nec, maximus augue. Maecenas sed mollis leo. Aliquam ut enim eget augue convallis laoreet ut vitae lectus. Etiam consequat, erat vitae consectetur fringilla, nisi arcu consequat sapien, id maximus leo ligula at metus.",
+  preview: '1:1 coaching notes and suggestions'
 )
 Notification.create(
-  sender_name: 'Mr. Mistoffelees',
-  title: 'Feed me or Else', 
-  content: "Sit as close as possible to warm fire without sitting on cold floor. Jump around on couch, meow constantly until given food, refuse to leave cardboard box and fight own tail why can't i catch that stupid red dot yet man running from cops stops to pet cats, goes to jail mesmerizing birds. You have cat to be kitten me right meow ccccccccccccaaaaaaaaaaaaaaatttttttttttttttttssssssssssssssss i dreamt about fish yum! for drink water out of the faucet so find something else more interesting, or always ensure to lay down in such a manner that tail can lightly brush human's nose.",
-  preview: 'Kitty power make plans to dominate world and then take a nap'
+  sender_name: 'Sydney Moore',
+  title: 'Nonprofit formation process', 
+  content: "Mauris venenatis ipsum sed lacus malesuada, eget viverra magna consectetur. Nulla faucibus arcu ac porta semper. Morbi ligula mi, pellentesque non ullamcorper ut, condimentum vitae elit. Morbi odio ante, elementum sit amet ipsum imperdiet, hendrerit suscipit tortor. Suspendisse lacinia id ligula nec placerat. Mauris a maximus nulla. Vivamus sodales nunc est, quis suscipit sapien facilisis eu. Phasellus tincidunt velit eget pulvinar commodo. Curabitur ultrices lacinia sem eget imperdiet. Phasellus malesuada justo nunc, eu ultrices ex placerat ac. Etiam facilisis facilisis aliquet. Sed pulvinar ex at mollis mollis.",
+  preview: 'Questions on meeting the eligibility requirements'
 )
